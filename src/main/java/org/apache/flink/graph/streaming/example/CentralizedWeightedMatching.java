@@ -38,7 +38,7 @@ public class CentralizedWeightedMatching {
 	public CentralizedWeightedMatching() throws Exception {
 		StreamExecutionEnvironment env = StreamExecutionEnvironment.createLocalEnvironment();
 
-		// Source: http://grouplens.org/datasets/movielens/
+		// Source:  e/
 		@SuppressWarnings("serial")
 		DataStream<Edge<Long, Long>> edges = env
 				.readTextFile("movielens_10k_sorted.txt")

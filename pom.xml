@@ -58,6 +58,12 @@
             <version>3.16.1</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>it.unimi.dsi</groupId>
+            <artifactId>webgraph</artifactId>
+            <version>3.6.3</version>
+        </dependency>
+
         <!---->
 
         <dependency>
